@@ -1,0 +1,13 @@
+
+running 1 test
+test from_byte_slice::test_successful_byte_slice ... ignored
+
+test result: ok. 0 passed; 0 failed; 1 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+bench_blur_image
+  Instructions:            43452057 (No change)
+  L1 Accesses:             53492730 (No change)
+  L2 Accesses:               150658 (No change)
+  RAM Accesses:               30082 (No change)
+  Estimated Cycles:        55298890 (No change) (502.717μs)
+

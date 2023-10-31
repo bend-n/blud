@@ -1,0 +1,21 @@
+[package]
+name = "blud"
+version = "0.0.0"
+edition = "2021"
+authors = ["Lindsay Roberts <os@lindsayr.com>"]
+license = "MIT"
+description = "An implementation of \"Fastest Gaussian Blur\" for N-channel image slices"
+repository = "https://github.com/bend-n/blud"
+keywords = ["graphics", "blur", "image"]
+categories = ["multimedia::images", "graphics"]
+
+[dependencies]
+fimg = { version = "0.4.22", default-features = false }
+umath = "0.0.7"
+
+[[bench]]
+name = "bench"
+harness = false
+
+[dev-dependencies]
+iai = { git = "https://github.com/bend-n/iai", version = "0.1.1" }
